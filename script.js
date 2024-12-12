@@ -28,3 +28,11 @@ class PerishableProductProperties extends ProductProperties {
 
 const milk = new PerishableProductProperties("Chicken Legs", 6.84, 3, "2024-12-18");
 const eggs = new PerishableProductProperties("Potatoes", 3.99, 8, "2024-12-31");
+
+class Product {
+    static applyDiscount(products, discount) {
+        products.forEach(product => {
+            product.price *= (1 - discount);
+        });
+    }
+}
