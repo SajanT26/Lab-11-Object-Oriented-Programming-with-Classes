@@ -57,5 +57,5 @@ store.addProduct(chicken);
 store.addProduct(potatoes);
 
 console.log("Total value before discount: $", store.getInventoryValue().toFixed(2));
-
+Product.applyDiscount(store.inventory, 0.15);
 
