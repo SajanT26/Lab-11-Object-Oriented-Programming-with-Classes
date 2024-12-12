@@ -25,3 +25,6 @@ class PerishableProductProperties extends ProductProperties {
         return `${super.toString()}, Expiration Date: ${this.expirationDate}`;
     }
 }
+
+const milk = new PerishableProductProperties("Chicken Legs", 6.84, 3, "2024-12-18");
+const eggs = new PerishableProductProperties("Potatoes", 3.99, 8, "2024-12-31");
