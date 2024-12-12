@@ -76,3 +76,5 @@ const dunkaroos = new ProductProperties("Dunkaroos", 2.00, 65);
 store.addProduct(eggs);
 store.addProduct(coke);
 store.addProduct(dunkaroos);
+
+console.log("Updated value: $", store.getInventoryValue().toFixed(2));
