@@ -62,3 +62,9 @@ Product.applyDiscount(store.inventory, 0.15);
 console.log("Total value after discount: $", store.getInventoryValue().toFixed(2));
 
 const product = store.findProductByName("Chicken");
+
+if (product) {
+    console.log(product.toString());
+} else {
+    console.log("Product not avaliable");
+}
