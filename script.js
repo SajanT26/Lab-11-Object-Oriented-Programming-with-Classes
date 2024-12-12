@@ -71,3 +71,4 @@ if (product) {
 
 const eggs = new ProductProperties("Eggs", 5.99, 200);
 const coke = new ProductProperties("coek", 3.59, 20);
+const dunkaroos = new ProductProperties("Dunkaroos", 2.00, 65);
