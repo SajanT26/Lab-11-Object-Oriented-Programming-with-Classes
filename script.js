@@ -60,3 +60,5 @@ console.log("Total value before discount: $", store.getInventoryValue().toFixed(
 Product.applyDiscount(store.inventory, 0.15);
 
 console.log("Total value after discount: $", store.getInventoryValue().toFixed(2));
+
+const product = store.findProductByName("Chicken");
