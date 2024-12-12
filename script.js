@@ -36,3 +36,8 @@ class Product {
         });
     }
 }
+
+class Store {
+    constructor() {
+        this.inventory = [];
+    }
