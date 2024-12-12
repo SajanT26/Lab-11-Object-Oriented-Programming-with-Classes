@@ -78,3 +78,10 @@ store.addProduct(coke);
 store.addProduct(dunkaroos);
 
 console.log("Updated value: $", store.getInventoryValue().toFixed(2));
+
+const product2 = store.findProductByName("Dunkaroos");
+if (product2) {
+    console.log(product2.toString());
+} else {
+    console.log("Product not avaliable");
+}
